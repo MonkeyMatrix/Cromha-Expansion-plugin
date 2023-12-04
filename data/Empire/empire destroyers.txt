@@ -164,7 +164,7 @@ ship "Empire Kraken"
 	explode "empire medium explosion" 40
 	explode "empire huge explosion" 10
 	"final explode" "empire huge explosion"
-	description "The Empire Kraken is more than just a warship: it is practically a mobile space station, with docking bays for an entire squadron of drones and fighters and enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Kraken can also do significant damage in close combat. It is very powerful with its various weapons, which makes this ship extremely versatile. Except this, there is not much to tell about this Destroyers."
+	description "The Empire Kraken is more than just a warship: it is practically a mobile space station with docking bays for an entire squadron of drones and fighters, and there is enough crew to fill a small village. Although designed primarily for engaging enemies from a distance, a Kraken can do significant damage in close combat. It is very powerful with its various weapons, which makes this ship extremely versatile. Beyond this, there is not a large change compared to other Destroyers."
 
 ship "Empire Corvette YLL'A"
 	sprite "ship/Empire Corvette YLL'A"
@@ -301,8 +301,8 @@ ship "Empire Corvette YLL'A"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 40
 	"final explode" "empire medium explosion"
-	description "The Empire Corvettes are nanobots carriers. Like most of carriers, it is pretty useless in a fight if it is alone with no nanobot. It's why you see Empire Corvettes always with other Destroyers. The only difference with other carriers is that these ones have better hulls and shields and in general better systems and mobility."
-	description "The Empire Corvette YLL'A is less a carrier than the YLL'E version. It has less bays but even with that, it can carry Nanobots YLL'E, which are way better than Nanobots YLL'A."
+	description "The Empire Corvettes are nanobots carriers. Like most carriers, it is essentially useless in a fight if it used without nanobots. Due to this, you will usually see Empire Corvettes with other Destroyers. The only difference between other carriers is that these have better hulls, shields, generally better systems, and mobility."
+	description "The Empire Corvette YLL'A is less a carrier than the YLL'E version. It has less bays, but it can carry YLL'E Nanobots, which are superior to YLL'A Nanobots."
 
 ship "Empire Corvette YLL'E"
 	sprite "ship/Empire Corvette YLL'E"
@@ -433,8 +433,8 @@ ship "Empire Corvette YLL'E"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 40
 	"final explode" "empire medium explosion"
-	description "The Empire Corvettes are nanobots carriers. Like most of carriers, it is pretty useless in a fight if it is alone with no nanobot. It's why you see Empire Corvettes always with other Destroyers. The only difference with other carriers is that these ones have better hulls and shields and in general better systems and mobility."
-	description "The Empire Corvette YLL'E is more a carrier than the YLL'A version. It has more bays but even with that, it can carry only Nanobots YLL'A, which are way worse than Nanobots YLL'E."
+	description "The Empire Corvettes are nanobots carriers. Like most carriers, it is essentially useless in a fight if it used without nanobots. It's why you see Empire Corvettes always with other Destroyers. The only difference with other carriers is that these ones have better hulls and shields and in general better systems and mobility."
+	description "The Empire Corvette YLL'E is more a carrier than the YLL'A version. It has less bays, but it can carry YLL'E Nanobots, which are far superior to YLL'A Nanobots. It has more bays, but it can also carry YLL'A Nanobots, which are inferior but cheaper than YLL'E Nanobots."
 
 ship "Empire Striker"
 	sprite "ship/medium empire destroyer"
@@ -540,7 +540,7 @@ ship "Empire Striker"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 5
 	"final explode" "empire medium explosion"
-	description "The Empire Striker is a derived version of the Empire Nano-Flyer: it is a carrier that can carry less Nanobots but contrarily to the Nano-Flyer, it can be very helpful in fights since it has more powerful weapons and more mobility. And in plus, it is even cheaper for The Empire to build Empire Strikers than to build Empire Nano-Flyer."
+	description "The Empire Striker is a derived version of the Empire Nano-Flyer: it is a carrier that can carry less Nanobots then the Nano-Flyer, but it can be handy in fights since it has more powerful weapons and higher mobility. In addition, it is cheaper for The Empire to build Empire Strikers than to build Empire Nano-Flyer."
 
 ship "Empire Nano-Flyer"
 	sprite "ship/empire transporter"
@@ -671,7 +671,7 @@ ship "Empire Nano-Flyer"
 	explode "empire medium explosion" 60
 	explode "empire huge explosion" 5
 	"final explode" "empire medium explosion"
-	description "The Empire Nano-Flyer is designed almost solely for the purpose of carrying a squadron of Nanobots. Without them to serve as a protective screen, the ship itself is relatively helpless. The fact that even with the squadron attached to him he can be very mobiles makes this ship a very useful ship when catching up outlaws or running away Korath fleets."
+	description "The Empire Nano-Flyer is designed almost solely for the purpose of carrying a squadron of Nanobots. The Nanobots serve as a protective screen, so the ship can become relatively helpless without a proper stock of Nanobots. Even with the fighters docked, this ship is still mobile enough to catch outlaws or run away Korath fleets."
 
 ship "Empire Galactik"
 	sprite "ship/Empire Galactik"
@@ -795,4 +795,4 @@ ship "Empire Galactik"
 	explode "empire medium explosion" 24
 	explode "empire huge explosion" 8
 	"final explode" "empire huge explosion"
-	description "The Empire Galactik is the lightest destroyer produced by the Lifdot Industries. It is designed to be faster and more maneuverable than other ships of a similar size, in order to serve as a heavy escort ship or as part of a planetary defense and patrol fleet. Because of its intended use in merchant convoys, it also has a fair amount of cargo space."
+	description "The Empire Galactik is the lightest destroyer produced by Lifdot Industries. It is designed to be faster and more maneuverable than other ships of a similar size, which allows it to serve as a heavy escort ship or a planetary defense and patrol fleet. Due to its intended use in merchant convoys, it also has a fair amount of cargo space."
