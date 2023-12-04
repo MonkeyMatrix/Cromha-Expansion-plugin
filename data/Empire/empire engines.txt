@@ -104,7 +104,7 @@ outfit `RC-200 Atomic Thruster`
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
 	"afterburner effect" "empire ionic afterburner"
-	description "While Deep Sky was busy developing the combat atomic engines, the Hai were working on making theirs even better. Because of this, Hai atomic engines are highly efficient compared to their human variants, requiring less energy to fire and producing less heat in the process."
+	description "While Deep Sky was busy developing the combat atomic engines, the Hai were working on making their engines even better. Because of this, Hai atomic engines are highly efficient compared to their human variants, requiring less energy to fire and producing less heat in the process."
 
 outfit `RC-220 Atomic Thruster`
 	licenses
@@ -125,7 +125,7 @@ outfit `RC-220 Atomic Thruster`
 	"afterburner energy" 5.1
 	"afterburner heat" 4.0
 	"afterburner effect" "empire ionic afterburner"
-	description "These thrusters are the largest of the Hai atomic thrusters, and one of the most powerful thrusters in known space. Beat out by only the largest human atomic thrusters, these massive engines provide enough thrust to push around even the largest of ships as if they were fighters."
+	description "These thrusters are the largest of the Hai atomic thrusters, and one of the most powerful thrusters in known space. Overpowered by only the largest human atomic thrusters, these massive engines provide enough thrust to push around even the largest of ships as if they were fighters."
 
 outfit `RX-120 Reverse Thruster`
 	licenses
