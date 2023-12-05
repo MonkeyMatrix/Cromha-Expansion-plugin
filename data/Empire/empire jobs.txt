@@ -3,7 +3,7 @@ mission empire-fuel-transport[0]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 2 Fuel Capacitors full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -15,19 +15,19 @@ mission empire-fuel-transport[0]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +2
-		dialog "An Mineria Colonies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 2 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -2
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 50000 3
 mission empire-fuel-transport[1]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -39,19 +39,19 @@ mission empire-fuel-transport[1]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +3
-		dialog "An Mineria Colonies guy gives you the 3 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 3 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -3
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 65500 3
 mission empire-fuel-transport[2]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 7 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -63,19 +63,19 @@ mission empire-fuel-transport[2]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +5
-		dialog "An Mineria Colonies guy gives you the 5 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 5 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -5
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 70000 3
 mission empire-fuel-transport[3]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -87,19 +87,19 @@ mission empire-fuel-transport[3]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +7
-		dialog "An Mineria Colonies guy gives you the 7 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 7 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -7
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 85500 3
 mission empire-fuel-transport[4]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 12 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -111,19 +111,19 @@ mission empire-fuel-transport[4]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +9
-		dialog "An Mineria Colonies guy gives you the 9 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 9 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -9
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 105000 3
 mission empire-fuel-transport[5]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 13
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -135,12 +135,12 @@ mission empire-fuel-transport[5]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +12
-		dialog "An Mineria Colonies guy gives you the 12 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 12 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -12
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 170000 2.7
 
@@ -148,7 +148,7 @@ mission empire-fuel-transport[6]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 2 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -160,19 +160,19 @@ mission empire-fuel-transport[6]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +2
-		dialog "An Mineria Colonies guy gives you the 2 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 2 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -2
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 50000 3
 mission empire-fuel-transport[7]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 3 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -184,19 +184,19 @@ mission empire-fuel-transport[7]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +3
-		dialog "An Mineria Colonies guy gives you the 3 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 3 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -3
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 65500 3
 mission empire-fuel-transport[8]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 5 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 7 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -208,19 +208,19 @@ mission empire-fuel-transport[8]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +5
-		dialog "An Mineria Colonies guy gives you the 5 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 5 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -5
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 70000 3
 mission empire-fuel-transport[9]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 7 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 4 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -232,19 +232,19 @@ mission empire-fuel-transport[9]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +7
-		dialog "An Mineria Colonies guy gives you the 7 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 7 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -7
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 85500 3
 mission empire-fuel-transport[10]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 9 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 12 2
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -256,19 +256,19 @@ mission empire-fuel-transport[10]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +9
-		dialog "An Mineria Colonies guy gives you the 9 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 9 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -9
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 105000 3
 mission empire-fuel-transport[11]
 	job
 	repeat
 	name "Fuel Export to <planet>"
-	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before the date of <date>. Payment is <payment>."
+	description "Transport 12 Fuel Capacitor full of non-refined oil to <destination> before <date>. Payment is <payment>."
 	deadline 13
 	destination
 		not government "Empire Rebels" "Kor Mereti" "Kor Efret" "Kor Sestor" "Hai (Unfettered)" "Pirate"
@@ -280,22 +280,22 @@ mission empire-fuel-transport[11]
 		"reputation: Cromha Empire" > 100
 	on accept
 		outfit "Fuel Capacitor" +12
-		dialog "An Mineria Colonies guy gives you the 12 Fuel Capacitor and leaves your ship."
+		dialog "A member of the Mineria Colonies personnel gives you the 12 Fuel Capacitor and leaves your ship."
 	on complete
 		outfit "Fuel Capacitor" -12
 		"reputation: Cromha Empire" += 10
 		"reputation: Mineria Colonies" += 20
-		dialog "You give the Fuel Capacitors to a mineria colony guy and get payed <payment>."
+		dialog "You give the Fuel Capacitors to a Mineria colony personnel and receive <payment>."
 		payment
 		payment 170000 2.7
 
 # Hai Empire Jobs
-mission hai-embassade-escort[0]
+mission hai-ambassador-escort[0]
 	assisting
 	job
 	repeat
-	name "Escort Hai Embassador to <destination>"
-	description "An Hai Empire Embassador want to go back on <destination>. Bring him back to <destination>. Payment is <payment>."
+	name "Escort Hai Ambassador to <destination>"
+	description "A Hai Empire Ambassador wants to go back to <destination>. Bring him back to <destination>. Payment is <payment>."
 	source
 		government "Hai" "Hai Merchant" "Hai Merchant (Sympathizers)" "Hai Merchant (Human)"
 		not planet "Witdrew"
@@ -307,11 +307,11 @@ mission hai-embassade-escort[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 60000 1.5
-		dialog "After opening the ship's sas, the Ambassador thank you and gives you 60000 credits."
+		dialog "After opening the ship's sas, the Ambassador thanks you and gives you <payment>."
 	npc accompany save
 		government Hai
 		personality escort timid
-		ship "Pond Strider" "Hai Empire Embassador"
+		ship "Pond Strider" "Hai Empire Ambassador"
 
 mission outlaw-empire-passport[0]
 	job
@@ -330,7 +330,7 @@ mission outlaw-empire-passport[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 1.5
-		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+		dialog "After opening the sas, Empire authorities thank you and take him to the Empire register. You automatically receive <payment> on your bank account."
 
 mission outlaw-empire-passport[1]
 	job
@@ -349,7 +349,7 @@ mission outlaw-empire-passport[1]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 2
-		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automatically receive <payment> on your bank account."
 
 mission outlaw-empire-passport[2]
 	job
@@ -368,13 +368,13 @@ mission outlaw-empire-passport[2]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 3
-		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automaticlly got 80000 credits on your bank account."
+		dialog "After opening the sas, Empire authorities thank you and take the guy to the Empire register. You automatically receive <payment> on your bank account."
 
 mission assist-empire-bounty[0]
 	job
 	repeat
 	name "Assist Empire in <system> from Bounty"
-	description "An Empire army in <system> need help for defeating an attacking bounty fleet. Defeat all the pirates then land on <planet> and receive <payment>"
+	description "An Empire army in <system> need help for defeating an attacking bounty fleet. Defeat all the pirates then land on <planet> and receive <payment>."
 	to offer
 		random < 20
 		"combat rating" > 3000
@@ -388,7 +388,7 @@ mission assist-empire-bounty[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 2
-		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+		dialog "The Cromha Empire authorities thank you for helping them and give you <payment>."
 	npc
 		government "Mineria Colonies"
 		personality heroic forbearing disables plunders staying
@@ -399,13 +399,13 @@ mission assist-empire-bounty[0]
 		personality plunders harvests staying target
 		fleet "Large Southern Pirates"
 		system destination
-		dialog "The last Pirate has just been disabled, go back to <planet> to get your payment."
+		dialog "The last Pirate has just been disabled, go back to <planet> to receive your payment."
 
 mission assist-empire-syndicate[0]
 	job
 	repeat
 	name "Assist Empire in <system> from Syndicates"
-	description "An Empire army in <system> need help for defeating syndicates rebels. Defeat all the rebels then land on <planet> and receive <payment>"
+	description "An Empire army in <system> needs help defeating syndicate rebels. Defeat all the rebels and then land on <planet> to receive <payment>."
 	to offer
 		random < 25
 		"combat rating" > 1500
@@ -419,7 +419,7 @@ mission assist-empire-syndicate[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 1.2
-		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+		dialog "The Cromha Empire authorities thank you for helping them and give you <payment>."
 	npc
 		government "Mineria Colonies"
 		personality heroic forbearing disables plunders staying
@@ -430,13 +430,13 @@ mission assist-empire-syndicate[0]
 		personality plunders harvests staying target
 		fleet "Large Syndicate"
 		system destination
-		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
+		dialog "The last rebel has just been disabled. Go back to <planet> to receive your payment."
 
 mission assist-empire-rebels[0]
 	job
 	repeat
 	name "Assist Empire in <system> from Rebels"
-	description "An Empire army in <system> need help for defeating Empire Rebels. Defeat all the rebels then land on <planet> and receive <payment>"
+	description "An Empire army in <system> needs help defeating Empire Rebels. Defeat all the rebels and then land on <planet> to receive <payment>."
 	to offer
 		random < 25
 		"combat rating" > 1500
@@ -450,7 +450,7 @@ mission assist-empire-rebels[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 1.3
-		dialog "The Cromha Empire authorities thank you for helping them and gives you <payment>"
+		dialog "The Cromha Empire authorities thank you for helping them and give you <payment>."
 	npc
 		government "Mineria Colonies"
 		personality heroic forbearing disables plunders staying
@@ -461,7 +461,7 @@ mission assist-empire-rebels[0]
 		personality plunders harvests staying target
 		fleet empire-rebels-raiders-fleet
 		system destination
-		dialog "The last rebel has just been disabled, go back to <planet> to get your payment."
+		dialog "The last rebel has just been disabled. return to <planet> to receive your payment."
 
 # Harvests
 mission "Harvest (aluminum, small)"
@@ -476,7 +476,7 @@ mission "Harvest (aluminum, small)"
 	on complete
 		outfit "Aluminum" -50
 		payment 157500 2
-		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (aluminum, large)"
 	name "Harvest Aluminum"
@@ -490,7 +490,7 @@ mission "Harvest (aluminum, large)"
 	on complete
 		outfit "Aluminum" -100
 		payment 324000
-		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the aluminum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (copper, small)"
 	name "Harvest Copper"
@@ -504,7 +504,7 @@ mission "Harvest (copper, small)"
 	on complete
 		outfit "Copper" -50
 		payment 262500 2
-		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (copper, large)"
 	name "Harvest Copper"
@@ -518,7 +518,7 @@ mission "Harvest (copper, large)"
 	on complete
 		outfit "Copper" -100
 		payment 540000 2
-		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the copper at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (gold, small)"
 	name "Harvest Gold"
@@ -532,7 +532,7 @@ mission "Harvest (gold, small)"
 	on complete
 		outfit "Gold" -50
 		payment 800000 2
-		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (gold, large)"
 	name "Harvest Gold"
@@ -546,7 +546,7 @@ mission "Harvest (gold, large)"
 	on complete
 		outfit "Gold" -100
 		payment 1680000 2
-		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the gold at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (iron, small)"
 	name "Harvest Iron"
@@ -560,7 +560,7 @@ mission "Harvest (iron, small)"
 	on complete
 		outfit "Iron" -50
 		payment 105000 2
-		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (iron, large)"
 	name "Harvest Iron"
@@ -574,7 +574,7 @@ mission "Harvest (iron, large)"
 	on complete
 		outfit "Iron" -100
 		payment 216000 2
-		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the iron at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (lead, small)"
 	name "Harvest Lead"
@@ -588,7 +588,7 @@ mission "Harvest (lead, small)"
 	on complete
 		outfit "Lead" -50
 		payment 90000 2
-		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (lead, large)"
 	name "Harvest Lead"
@@ -602,7 +602,7 @@ mission "Harvest (lead, large)"
 	on complete
 		outfit "Lead" -100
 		payment 189000 2
-		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the lead at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (neodymium, small)"
 	name "Harvest Neodymium"
@@ -616,7 +616,7 @@ mission "Harvest (neodymium, small)"
 	on complete
 		outfit "Neodymium" -50
 		payment 380000 2
-		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (neodymium, large)"
 	name "Harvest Neodymium"
@@ -630,7 +630,7 @@ mission "Harvest (neodymium, large)"
 	on complete
 		outfit "Neodymium" -100
 		payment 798000 2
-		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the neodymium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (platinum, small)"
 	name "Harvest Platinum"
@@ -644,7 +644,7 @@ mission "Harvest (platinum, small)"
 	on complete
 		outfit "Platinum" -50
 		payment 1500000 2
-		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (platinum, large)"
 	name "Harvest Platinum"
@@ -658,7 +658,7 @@ mission "Harvest (platinum, large)"
 	on complete
 		outfit "Platinum" -100
 		payment 3200000 2
-		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (quatalant, small)"
 	name "Harvest Quatalant"
@@ -673,7 +673,7 @@ mission "Harvest (quatalant, small)"
 	on complete
 		outfit "Quatalant" -50
 		payment 1500000 2
-		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (quatalant, large)"
 	name "Harvest quatalant"
@@ -688,7 +688,7 @@ mission "Harvest (quatalant, large)"
 	on complete
 		outfit "Quatalant" -100
 		payment 3200000 2
-		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the platinum at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (silicon, small)"
 	name "Harvest Silicon"
@@ -702,7 +702,7 @@ mission "Harvest (silicon, small)"
 	on complete
 		outfit "Silicon" -50
 		payment 60000 2
-		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (silicon, large)"
 	name "Harvest Silicon"
@@ -716,7 +716,7 @@ mission "Harvest (silicon, large)"
 	on complete
 		outfit "Silicon" -100
 		payment 128000 2
-		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the silicon at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (silver, small)"
 	name "Harvest Silver"
@@ -730,7 +730,7 @@ mission "Harvest (silver, small)"
 	on complete
 		outfit "Silver" -50
 		payment 450000 2
-		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (silver, large)"
 	name "Harvest Silver"
@@ -744,7 +744,7 @@ mission "Harvest (silver, large)"
 	on complete
 		outfit "Silver" -100
 		payment 960000 2
-		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the silver at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (titanium, small)"
 	name "Harvest Titanium"
@@ -758,7 +758,7 @@ mission "Harvest (titanium, small)"
 	on complete
 		outfit "Titanium" -50
 		payment 375000 2
-		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (titanium, large)"
 	name "Harvest Titanium"
@@ -772,7 +772,7 @@ mission "Harvest (titanium, large)"
 	on complete
 		outfit "Titanium" -100
 		payment 800000 2
-		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the titanium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (tungsten, small)"
 	name "Harvest Tungsten"
@@ -786,7 +786,7 @@ mission "Harvest (tungsten, small)"
 	on complete
 		outfit "Tungsten" -50
 		payment 450000 2
-		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (tungsten, large)"
 	name "Harvest Tungsten"
@@ -800,7 +800,7 @@ mission "Harvest (tungsten, large)"
 	on complete
 		outfit "Tungsten" -100
 		payment 945000 2
-		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the tungsten at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (uranium, small)"
 	name "Harvest Uranium"
@@ -814,7 +814,7 @@ mission "Harvest (uranium, small)"
 	on complete
 		outfit "Uranium" -50
 		payment 750000 2
-		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 mission "Harvest (uranium, large)"
 	name "Harvest Uranium"
@@ -828,14 +828,14 @@ mission "Harvest (uranium, large)"
 	on complete
 		outfit "Uranium" -100
 		payment 1600000 2
-		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and pay you <payment>.`
+		dialog `You unload the uranium at the spaceport. The people of <origin> thank you, and you receive <payment>.`
 
 # Hunt Down Jobs
 mission marauder[0]
 	job
 	repeat
 	name "Hunt Down Marauder near <system>"
-	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and return to <planet> before the <date> to receive your payment. Payment is <payment>."
 	to offer
 		random < 20
 		"combat rating" > 1500
@@ -848,19 +848,19 @@ mission marauder[0]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 80000 2
-		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and give you <payment>."
 	npc kill
 		government "Pirate"
 		personality plunders harvests
 		fleet small-pirates
 		system destination
-		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+		dialog "The last marauder has just been disabled, return to <planet> to receive your payment."
 
 mission marauder[1]
 	job
 	repeat
 	name "Hunt Down Marauder near <system>"
-	description "A Marauder name the <npc> has been attacking Merchants recently near <system> system. Hunt it down and land back on <planet> before the <date> to get your payment. Payment is <payment>"
+	description "A Marauder named the <npc> has been attacking Merchants recently near <system> system. Hunt it down and return to <planet> before the <date> to receive your payment. Payment is <payment>."
 	to offer
 		random < 25
 		"combat rating" > 1500
@@ -873,19 +873,19 @@ mission marauder[1]
 		"reputation: Cromha Empire" += 10
 		payment
 		payment 130000 2
-		dialog "The Cromha Empire authorities thank you for destroying the marauder and gives you <payment>"
+		dialog "The Cromha Empire authorities thank you for destroying the marauder and give you <payment>."
 	npc kill
 		government "Pirate"
 		personality plunders harvests
 		fleet small-pirates
 		system destination
-		dialog "The last marauder has just been disabled, go back to <planet> to get your payment."
+		dialog "The last marauder has just been disabled, return to <planet> to receive your payment."
 
 mission empire-capture-outlaw[0]
 	job
 	repeat
 	name "Capture Outlaw"
-	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	description "An outlaw called <npc> has been detected near <destination>. Capture the warship and the outlaw without destroying them. Bring the outlaw back to <destination> to get paid <payment>."
 	to offer
 		random < 15
 		"combat rating" > 350
@@ -897,12 +897,12 @@ mission empire-capture-outlaw[0]
 		"reputation: Empire Merchant (outlaw)" += 10000
 		payment
 		payment 80000 2
-		dialog "You land on <destination> and get payed <payment>."
+		dialog "You land on <destination> and get paid <payment>."
 	npc capture
 		government "Empire Merchant (outlaw)"
 		personality plunders harvests mining appeasing timid coward staying target
 		ship "Headhunter (Empire)" civilian
-		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		dialog "You successfully captured the outlaw. Time to take him to <destination>."
 		system
 			distance 1
 
@@ -910,7 +910,7 @@ mission empire-capture-outlaw[1]
 	job
 	repeat
 	name "Capture Outlaw"
-	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	description "An outlaw called <npc> has been detected near <destination>. Capture the ship and the outlaw without destroying them. Bring the outlaw back to <destination> to get paid <payment>."
 	to offer
 		random < 15
 		"combat rating" > 850
@@ -922,13 +922,13 @@ mission empire-capture-outlaw[1]
 		"reputation: Empire Merchant (outlaw)" += 10000
 		payment
 		payment 98000 2
-		dialog "You land on <destination> and get payed <payment>."
+		dialog "You land on <destination> and get paid <payment>."
 	npc capture
 		government "Empire Merchant (outlaw)"
 		personality plunders harvests mining appeasing timid coward staying target
 		ship "Raven (Empire)" civilian
 		ship "Quicksilver (Empire)" civilian
-		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		dialog "You successfully captured the outlaw. Time to take him to <destination>."
 		system
 			distance 1
 
@@ -936,7 +936,7 @@ mission empire-capture-outlaw[2]
 	job
 	repeat
 	name "Capture Outlaw"
-	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	description "An outlaw called <npc> has been detected near <destination>. Capture the ship and the outlaw without destroying the warship. Bring the outlaw back to <destination> to get paid <payment>."
 	to offer
 		random < 15
 		"combat rating" > 985
@@ -948,13 +948,13 @@ mission empire-capture-outlaw[2]
 		"reputation: Empire Merchant (outlaw)" += 10000
 		payment
 		payment 100000 2
-		dialog "You land on <destination> and get payed <payment>."
+		dialog "You land on <destination> and get paid <payment>."
 	npc capture
 		government "Empire Merchant (outlaw)"
 		personality plunders harvests mining appeasing timid coward staying target
 		ship "Osprey (Empire)" civilian
 		ship "Aerie (Empire)" civilian
-		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		dialog "You successfully captured the outlaw. Time to take him to <destination>."
 		system
 			distance 1
 
@@ -962,7 +962,7 @@ mission empire-capture-outlaw[3]
 	job
 	repeat
 	name "Capture Outlaw"
-	description "An outlaw called <npc> has been detected staying near <destination>. Capture the ship and the outlaw without destroying the warship. Bring him back to <destination> to get payed <payment>"
+	description "An outlaw called <npc> has been detected near <destination>. Capture the ship and the outlaw without destroying them. Bring the outlaw back to <destination> to get paid <payment>."
 	to offer
 		random < 15
 		"combat rating" > 1000
@@ -974,20 +974,20 @@ mission empire-capture-outlaw[3]
 		"reputation: Empire Merchant (outlaw)" += 10000
 		payment
 		payment 110000 2
-		dialog "You land on <destination> and get payed <payment>."
+		dialog "You land on <destination> and get paid <payment>."
 	npc capture
 		government "Empire Merchant (outlaw)"
 		personality plunders harvests mining appeasing timid coward staying target
 		ship "Protector (Empire)" civilian
 		ship "Corvette (Empire)" civilian
-		dialog "You successfully captured the outlaw. Time to bring him to <destination>."
+		dialog "You successfully captured the outlaw. Time to take him to <destination>."
 		system
 			distance 1
 
-# Delivries Jobs
-mission cargo-delivry-food[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+# Delivery Jobs
+mission cargo-deliver-food[0]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1004,9 +1004,9 @@ mission cargo-delivry-food[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-food[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-food[1]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1023,9 +1023,9 @@ mission cargo-delivry-food[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-food[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-food[2]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1042,9 +1042,9 @@ mission cargo-delivry-food[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-food[3]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-food[3]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1061,9 +1061,9 @@ mission cargo-delivry-food[3]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-food[4]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-food[4]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1080,9 +1080,9 @@ mission cargo-delivry-food[4]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-clothing[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-clothing[0]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1099,9 +1099,9 @@ mission cargo-delivry-clothing[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-clothing[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-clothing[1]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1118,9 +1118,9 @@ mission cargo-delivry-clothing[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-clothing[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-clothing[2]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1137,9 +1137,9 @@ mission cargo-delivry-clothing[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-equipment[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-equipment[0]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1156,9 +1156,9 @@ mission cargo-delivry-equipment[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-equipment[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-equipment[1]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1175,9 +1175,9 @@ mission cargo-delivry-equipment[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-equipment[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-equipment[2]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1194,9 +1194,9 @@ mission cargo-delivry-equipment[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-medical[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-medical[0]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1213,9 +1213,9 @@ mission cargo-delivry-medical[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-medical[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-medical[1]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1232,9 +1232,9 @@ mission cargo-delivry-medical[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-electronics[0]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-electronics[0]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1251,9 +1251,9 @@ mission cargo-delivry-electronics[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-electronics[1]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-electronics[1]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1270,9 +1270,9 @@ mission cargo-delivry-electronics[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission cargo-delivry-electronics[2]
-	name "Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission cargo-deliver-electronics[2]
+	name "Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1290,9 +1290,9 @@ mission cargo-delivry-electronics[2]
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
 
-mission bulk-delivry-food[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-food[0]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1309,9 +1309,9 @@ mission bulk-delivry-food[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-food[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-food[1]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1328,9 +1328,9 @@ mission bulk-delivry-food[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-food[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-food[2]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1347,9 +1347,9 @@ mission bulk-delivry-food[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-food[3]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-food[3]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1366,9 +1366,9 @@ mission bulk-delivry-food[3]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-food[4]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-food[4]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1385,9 +1385,9 @@ mission bulk-delivry-food[4]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-clothing[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-clothing[0]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1404,9 +1404,9 @@ mission bulk-delivry-clothing[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-clothing[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-clothing[1]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1423,9 +1423,9 @@ mission bulk-delivry-clothing[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-clothing[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-clothing[2]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1442,9 +1442,9 @@ mission bulk-delivry-clothing[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-equipment[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-equipment[0]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1461,9 +1461,9 @@ mission bulk-delivry-equipment[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-equipment[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-equipment[1]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1480,9 +1480,9 @@ mission bulk-delivry-equipment[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-equipment[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-equipment[2]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1499,9 +1499,9 @@ mission bulk-delivry-equipment[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-medical[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-medical[0]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1518,9 +1518,9 @@ mission bulk-delivry-medical[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-medical[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-medical[1]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1537,9 +1537,9 @@ mission bulk-delivry-medical[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-electronics[0]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-electronics[0]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1556,9 +1556,9 @@ mission bulk-delivry-electronics[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-electronics[1]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-electronics[1]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1575,9 +1575,9 @@ mission bulk-delivry-electronics[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission bulk-delivry-electronics[2]
-	name "Bulk Delivry to <planet>"
-	description "Delivry <cargo> to <destination>. Payment is <payment>."
+mission bulk-deliver-electronics[2]
+	name "Bulk Deliver to <planet>"
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
 	repeat
 	job
 	clearance
@@ -1594,9 +1594,9 @@ mission bulk-delivry-electronics[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-food[0]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-food[0]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1614,9 +1614,9 @@ mission rush-delivry-food[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-food[1]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-food[1]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1634,9 +1634,9 @@ mission rush-delivry-food[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-food[2]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-food[2]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1654,9 +1654,9 @@ mission rush-delivry-food[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-food[3]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-food[3]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1674,9 +1674,9 @@ mission rush-delivry-food[3]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-food[4]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-food[4]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1694,9 +1694,9 @@ mission rush-delivry-food[4]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-clothing[0]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-clothing[0]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1714,9 +1714,9 @@ mission rush-delivry-clothing[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-clothing[1]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-clothing[1]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1734,9 +1734,9 @@ mission rush-delivry-clothing[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-clothing[2]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-clothing[2]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1754,9 +1754,9 @@ mission rush-delivry-clothing[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-equipment[0]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-equipment[0]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1774,9 +1774,9 @@ mission rush-delivry-equipment[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-equipment[1]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-equipment[1]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1794,9 +1794,9 @@ mission rush-delivry-equipment[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-equipment[2]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-equipment[2]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1814,9 +1814,9 @@ mission rush-delivry-equipment[2]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-medical[0]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-medical[0]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1834,9 +1834,9 @@ mission rush-delivry-medical[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-medical[1]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-medical[1]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1854,9 +1854,9 @@ mission rush-delivry-medical[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-electronics[0]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-electronics[0]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1874,9 +1874,9 @@ mission rush-delivry-electronics[0]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-electronics[1]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-electronics[1]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1894,9 +1894,9 @@ mission rush-delivry-electronics[1]
 		payment 15000 2
 		dialog `You drop off the <commodity> at a registered Cargo Drop Off Zone, and receive <payment>.`
 
-mission rush-delivry-electronics[2]
-	name "Rush Delivry to <planet>"
-	description "Delivry <cargo> to <destination> before the date of <date>. Payment is <payment>."
+mission rush-deliver-electronics[2]
+	name "Rush Deliver to <planet>"
+	description "Deliver <cargo> to <destination> before <date>. Payment is <payment>."
 	deadline 5 7
 	repeat
 	job
@@ -1917,7 +1917,7 @@ mission rush-delivry-electronics[2]
 # Merchants escort
 mission merchant-escort[0]
 	name "Escort to <planet>"
-	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels are bound to intercept, so be careful. Payment is <payment>."
 	repeat
 	job
 	to offer
@@ -1943,11 +1943,11 @@ mission merchant-escort[0]
 		system
 			distance 1 3
 	on visit
-		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+		dialog "You've landed on your destination but it seems that your escorts are still not here. Return to space, wait for your escorts, then land."
 
 mission merchant-escort[1]
 	name "Escort to <planet>"
-	description "Escort the Captain <npc> to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	description "Escort the Captain <npc> to <destination>. Empire Rebels are bound to intercept, so be careful. Payment is <payment>."
 	repeat
 	job
 	to offer
@@ -1973,11 +1973,11 @@ mission merchant-escort[1]
 		system
 			distance 1 3
 	on visit
-		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+		dialog "You've landed on your destination but it seems that your escorts are still not here. Return to space, wait for your escorts, then land."
 
 mission merchant-escort[2]
 	name "Escort to <planet>"
-	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels are bound to intercept, so be careful. Payment is <payment>."
 	repeat
 	job
 	to offer
@@ -2003,11 +2003,11 @@ mission merchant-escort[2]
 		system
 			distance 1 3
 	on visit
-		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+		dialog "You've landed on your destination but it seems that your escorts are still not here. Return to space, wait for your escorts, then land."
 
 mission merchant-escort[3]
 	name "Escort to <planet>"
-	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels are bound to intercept, so be careful. Payment is <payment>."
 	repeat
 	job
 	to offer
@@ -2033,11 +2033,11 @@ mission merchant-escort[3]
 		system
 			distance 1 3
 	on visit
-		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+		dialog "You've landed on your destination but it seems that your escorts are still not here. Return to space, wait for your escorts, then land."
 
 mission merchant-escort[4]
 	name "Escort to <planet>"
-	description "Escort the Captain '<npc>' to <destination>. Empire Rebels will be on your way so be carefull. Payment is <payment>."
+	description "Escort the Captain '<npc>' to <destination>. Empire Rebels are bound to intercept, so be careful. Payment is <payment>."
 	repeat
 	job
 	to offer
@@ -2063,12 +2063,12 @@ mission merchant-escort[4]
 		system
 			distance 1 3
 	on visit
-		dialog "You've landed on your destination but it semms that your escorts are still not here. Wait for them then land back."
+		dialog "You've landed on your destination but it seems that your escorts are still not here. Return to space, wait for your escorts, then land."
 
-# Secure delivries
-mission secure-delivry[0]
-	name "Secure Delivry to <planet>"
-	description "Deliver a secure package to <destination> before the date of <date>. Payment is <payment>."
+# Secure deliveries
+mission secure-deliver[0]
+	name "Secure Deliver to <planet>"
+	description "Deliver a secure package to <destination> before <date>. Payment is <payment>."
 	deadline 2 9
 	job
 	repeat
@@ -2088,11 +2088,11 @@ mission secure-delivry[0]
 	on visit
 		dialog phrase "generic cargo on visit"
 	on abort
-		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		dialog "The Cromha Empire will not be happy. You were fined 250,000 credits."
 		set "secure empire package ability"
 		fine 250000
 	on fail
-		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		dialog "The Cromha Empire will not be happy. You were fined 250,000 credits."
 		set "secure empire package ability"
 		fine 250000
 	on complete
@@ -2101,9 +2101,9 @@ mission secure-delivry[0]
 		"secure empire package" ++
 		dialog phrase "secure package dropoff payment"
 
-mission secure-delivry[1]
-	name "Secure Delivry to <planet>"
-	description "Deliver a secure package to <destination> before the date of <date>. Payment is <payment>."
+mission secure-deliver[1]
+	name "Secure Deliver to <planet>"
+	description "Deliver a secure package to <destination> before <date>. Payment is <payment>."
 	deadline 2 9
 	job
 	repeat
@@ -2123,11 +2123,11 @@ mission secure-delivry[1]
 	on visit
 		dialog phrase "generic cargo on visit"
 	on abort
-		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		dialog "The Cromha Empire will not be happy. You were fined 250,000 credits."
 		set "secure empire package ability"
 		fine 250000
 	on fail
-		dialog "The Cromha Empire will not be happy. You got fined 250,000 credits."
+		dialog "The Cromha Empire will not be happy. You were fined 250,000 credits."
 		set "secure empire package ability"
 		fine 250000
 	on complete
@@ -2139,7 +2139,7 @@ mission secure-delivry[1]
 # Bring Tourists
 mission bring-tourist[0]
 	name "Tourist to <planet>"
-	description "A family of 3 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	description "A family of 3 humans want to tour <destination>. Take them there safely to get paid <payment>."
 	passengers 3
 	job
 	repeat
@@ -2153,10 +2153,10 @@ mission bring-tourist[0]
 	on complete
 		payment
 		payment 15000 2
-		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+		dialog "You land on <planet> and unload the whole family. They pay you <payment>."
 mission bring-tourist[1]
 	name "Tourist to <planet>"
-	description "A family of 12 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	description "A family of 12 humans want to tour <destination>. Take them there safely to get paid <payment>."
 	passengers 12
 	job
 	repeat
@@ -2170,10 +2170,10 @@ mission bring-tourist[1]
 	on complete
 		payment
 		payment 11000 2
-		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+		dialog "You land on <planet> and unload the whole family. They pay you <payment>."
 mission bring-tourist[2]
 	name "Tourist to <planet>"
-	description "A family of 2 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	description "A family of 2 humans want to tour <destination>. Take them there safely to get paid <payment>."
 	passengers 2
 	job
 	repeat
@@ -2187,10 +2187,10 @@ mission bring-tourist[2]
 	on complete
 		payment
 		payment 9000 2
-		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+		dialog "You land on <planet> and unload the whole family. They pay you <payment>."
 mission bring-tourist[3]
 	name "Tourist to <planet>"
-	description "A family of 6 humans want to go tourist to <destination>. Bring them there safely to get payed <payment>."
+	description "A family of 6 humans want to tour <destination>. Take them there safely to get paid <payment>."
 	passengers 6
 	job
 	repeat
@@ -2204,12 +2204,12 @@ mission bring-tourist[3]
 	on complete
 		payment
 		payment 21000 2
-		dialog "You land on <planet> and depose the whole family. They payed you <payment>."
+		dialog "You land on <planet> and unload the whole family. They pay you <payment>."
 
-#  colony importation
+#  Colony importation
 mission colony-importation[0]
-	name "Import to <planet> colony"
-	description "Import  2 workers to <planet>'s colony. Payment is <payment>."
+	name "Import to <planet> Colony"
+	description "Import 2 workers to <planet>'s colony. Payment is <payment>."
 	job
 	repeat
 	passengers 2
@@ -2224,11 +2224,11 @@ mission colony-importation[0]
 	on complete
 		payment
 		payment 18000 5
-		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+		dialog "You land on <planet> and unload the workers. They pay you <payment>."
 
 mission colony-importation[1]
-	name "Import to <planet> colony"
-	description "Import  5 workers to <planet>'s colony. Payment is <payment>."
+	name "Import to <planet> Colony"
+	description "Import 5 workers to <planet>'s colony. Payment is <payment>."
 	job
 	repeat
 	passengers 5
@@ -2243,11 +2243,11 @@ mission colony-importation[1]
 	on complete
 		payment
 		payment 21000 5
-		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+		dialog "You land on <planet> and unload the workers. They pay you <payment>."
 
 mission colony-importation[2]
-	name "Import to <planet> colony"
-	description "Import  7 workers to <planet>'s colony. Payment is <payment>."
+	name "Import to <planet> Colony"
+	description "Import 7 workers to <planet>'s colony. Payment is <payment>."
 	job
 	repeat
 	passengers 7
@@ -2262,12 +2262,12 @@ mission colony-importation[2]
 	on complete
 		payment
 		payment 24000 5
-		dialog "You land on <planet> and depose the workers. They payed you <payment>."
+		dialog "You land on <planet> and unload the workers. They pay you <payment>."
 
 # Passengers
 mission passenger-transport[0]
 	name "Passenger to <planet>"
-	description "Passenger 1 human to <destination>. Payment is <payment>."
+	description "Transport 1 human to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2281,10 +2281,10 @@ mission passenger-transport[0]
 	on complete
 		payment
 		payment 8500 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passenger, and get paid <payment>."
 mission passenger-transport[1]
 	name "Passenger to <planet>"
-	description "Passenger 3 humans to <destination>. Payment is <payment>."
+	description "Transport 3 humans to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 3
@@ -2298,10 +2298,10 @@ mission passenger-transport[1]
 	on complete
 		payment
 		payment 10500 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passengers, and get paid <payment>."
 mission passenger-transport[2]
 	name "Passenger to <planet>"
-	description "Passenger 1 human to <destination>. Payment is <payment>."
+	description "Transport 1 human to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2315,11 +2315,11 @@ mission passenger-transport[2]
 	on complete
 		payment
 		payment 9500 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passenger, and get paid <payment>."
 
 mission passenger-transport[3]
 	name "Passenger to <planet>"
-	description "Passenger 5 human to <destination>. Payment is <payment>."
+	description "Transport 5 human to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 5
@@ -2333,10 +2333,10 @@ mission passenger-transport[3]
 	on complete
 		payment
 		payment 12300 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passengers, and get paid <payment>."
 mission passenger-transport[4]
 	name "Passenger to <planet>"
-	description "Passenger 7 human to <destination>. Payment is <payment>."
+	description "Transport 7 human to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 7
@@ -2350,10 +2350,10 @@ mission passenger-transport[4]
 	on complete
 		payment
 		payment 8500 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passenger, and get paid <payment>."
 mission passenger-transport[5]
 	name "Passenger to <planet>"
-	description "Passenger 2 humans to <destination>. Payment is <payment>."
+	description "Transport 2 humans to <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 2
@@ -2367,12 +2367,12 @@ mission passenger-transport[5]
 	on complete
 		payment
 		payment 10500 2
-		dialog "You land on <planet> and get Payed <payment>."
+		dialog "You land on <planet>, drop off your passenger, and get paid <payment>."
 
 # Wanted outlaws, bounties, rebels
 mission wanted-outlaw
 	name "Wanted Outlaw near <system>"
-	description "An well armed outlaw near <system> is beeing researched. He is staying near <system>. Find him, disabled the ship and board to capture the outlaw. Bring him to <destination>. Payment is <payment>."
+	description "A well armed outlaw was spotted near <system>. Disable the ship, board it, and capture the outlaw. Take him to <destination>. Payment is <payment>."
 	job
 	repeat
 	source
@@ -2384,7 +2384,7 @@ mission wanted-outlaw
 	on complete
 		payment
 		payment 150000 2
-		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+		dialog "You bring the captured outlaw to an empire authority and get paid <payment>."
 	npc board
 		government "Bounty (Disguised)"
 		ship "Leviathan"
@@ -2392,10 +2392,10 @@ mission wanted-outlaw
 			confusion 40
 		system
 			distance 1 2
-		dialog "You capture the outlaw. Time to bring him to <planet>."
+		dialog "You capture the outlaw. Time to take him to <planet>."
 mission wanted-rebel[0]
 	name "Wanted Rebel near <system>"
-	description "An well armed rebel staying in an system near <system> is beeing researched. Find him, disabled the ship and board to capture the rebel. Bring him to <destination>. Payment is <payment>."
+	description "A well armed rebel was spotted near <system>. Disable the ship, board it, and capture the outlaw. Take him to <destination>. Payment is <payment>."
 	job
 	repeat
 	source
@@ -2407,7 +2407,7 @@ mission wanted-rebel[0]
 	on complete
 		payment
 		payment 150000 2
-		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+		dialog "You bring the captured outlaw to an empire authority and get paid <payment>."
 	npc board
 		government "Empire Rebels"
 		ship "Gunboat (Rebels)"
@@ -2415,11 +2415,11 @@ mission wanted-rebel[0]
 			confusion 40
 		system
 			distance 1 3
-		dialog "You capture the rebel. Time to bring him to <planet>."
+		dialog "You capture the rebel. Time to take him to <planet>."
 
 mission wanted-rebel[1]
 	name "Wanted Rebel near <system>"
-	description "An well armed rebel staying in an system near <system> is beeing researched. Find him, disabled the ship and board to capture the rebel. Bring him to <destination>. Payment is <payment>."
+	description "A well armed rebel was spotted near <system>. Disable the ship, board it, and capture the outlaw. Take him to <destination>. Payment is <payment>."
 	job
 	repeat
 	source
@@ -2431,7 +2431,7 @@ mission wanted-rebel[1]
 	on complete
 		payment
 		payment 150000 2
-		dialog "You bring the captured outlaw to an empire authorities. You got payed <payment>."
+		dialog "You bring the captured outlaw to an empire authorities and get paid <payment>."
 	npc board
 		government "Empire Rebels"
 		ship "Gunboat (Rebels)"
@@ -2439,12 +2439,12 @@ mission wanted-rebel[1]
 			confusion 40
 		system
 			distance 1 3
-		dialog "You capture the rebel. Time to bring him to <planet>."
+		dialog "You capture the rebel. Time to take him to <planet>."
 
-# Prisonner transport
-mission prisonner-empire[0]
-	name "Prisonner to <planet>"
-	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+# Prisoner transport
+mission prisoner-empire[0]
+	name "Prisoner to <planet>"
+	description "Take an empire prisoner safely to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline 1 4
@@ -2460,10 +2460,10 @@ mission prisonner-empire[0]
 	on complete
 		payment
 		payment 18000 2
-		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
-mission prisonner-empire[1]
-	name "Prisonner to <planet>"
-	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+		dialog "You bring the prisoner to an empire authority. He pays you <payment>."
+mission prisoner-empire[1]
+	name "Prisoner to <planet>"
+	description "Take an empire prisoner safely to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2479,10 +2479,10 @@ mission prisonner-empire[1]
 	on complete
 		payment
 		payment 24000 2
-		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
-mission prisonner-empire[2]
-	name "Prisonner to <planet>"
-	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+		dialog "You bring the prisoner to an empire authority. He pays you <payment>."
+mission prisoner-empire[2]
+	name "Prisoner to <planet>"
+	description "Take an empire prisoner safely to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2498,11 +2498,11 @@ mission prisonner-empire[2]
 	on complete
 		payment
 		payment 13500 2
-		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+		dialog "You bring the prisoner to an empire authority. He pays you <payment>."
 
-mission prisonner-empire[3]
-	name "Prisonner to <planet>"
-	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+mission prisoner-empire[3]
+	name "Prisoner to <planet>"
+	description "Take an empire prisoner safely to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2518,11 +2518,11 @@ mission prisonner-empire[3]
 	on complete
 		payment
 		payment 13500 2
-		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+		dialog "You bring the prisoner to an empire authority. He pays you <payment>."
 
-mission prisonner-empire[4]
-	name "Prisonner to <planet>"
-	description "Bring an empire prisonner safely to <destination> before the date of <date>. Payment is <payment>."
+mission prisoner-empire[4]
+	name "Prisoner to <planet>"
+	description "Take an empire prisoner safely to <destination> before <date>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2538,12 +2538,12 @@ mission prisonner-empire[4]
 	on complete
 		payment
 		payment 13500 2
-		dialog "You bring the prisonner to an empire authoritie. He pays you <payment>."
+		dialog "You bring the prisoner to an empire authority. He pays you <payment>."
 
-# Vacancers
-mission vacancer[0]
-	name "Vacancer to <planet>"
-	description "Transport 1 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+# Sightseers
+mission sightseer[0]
+	name "Sightseer to <planet>"
+	description "Transport 1 sightseer to <destination> for their vacation before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline 1 3
@@ -2559,10 +2559,10 @@ mission vacancer[0]
 	on complete
 		payment
 		payment 9600 2
-		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
-mission vacancer[1]
-	name "Vacancers to <planet>"
-	description "Transport 2 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+		dialog "You land on <planet> and unload the sightseer. You get paid <payment>."
+mission sightseer[1]
+	name "Sightseers to <planet>"
+	description "Transport 2 sightseers to <destination> for their vacations before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline 2 7
@@ -2578,10 +2578,10 @@ mission vacancer[1]
 	on complete
 		payment
 		payment 21000 2
-		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
-mission vacancer[2]
-	name "Vacancers to <planet>"
-	description "Transport 4 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+		dialog "You land on <planet> and unload the sightseers. You get paid <payment>."
+mission sightseer[2]
+	name "Sightseers to <planet>"
+	description "Transport 4 sightseers to <destination> for their vacations before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline 1 3
@@ -2597,10 +2597,10 @@ mission vacancer[2]
 	on complete
 		payment
 		payment 23500 2
-		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
-mission vacancer[3]
-	name "Vacancers to <planet>"
-	description "Transport 3 vacancer to <destination> for its vacations before the date of <date>. Payment is <payment>."
+		dialog "You land on <planet> and unload the sightseers. You get paid <payment>."
+mission sightseer[3]
+	name "Sightseers to <planet>"
+	description "Transport 3 sightseers to <destination> for their vacations before <date>. Payment is <payment>."
 	job
 	repeat
 	deadline 2 8
@@ -2616,12 +2616,12 @@ mission vacancer[3]
 	on complete
 		payment
 		payment 31000 2
-		dialog "You land on <planet> and depose the vacancer(s). You got payed <payment>."
+		dialog "You land on <planet> and depose the sightseers. You get paid <payment>."
 
 # Miners transport
 mission miner[0]
 	name "Miner to <planet>"
-	description "Transport a miner to the <destination> mine. Payment is <payment>."
+	description "Transport a miner to a mine on <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 1
@@ -2636,10 +2636,10 @@ mission miner[0]
 	on complete
 		payment
 		payment 7800 2
-		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+		dialog "You land on <planet> and get paid <payment> by the miner."
 mission miner[1]
 	name "Miners to <planet>"
-	description "Transport 2 miners to the <destination> mine. Payment is <payment>."
+	description "Transport 2 miners to a mine on <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 2
@@ -2654,10 +2654,10 @@ mission miner[1]
 	on complete
 		payment
 		payment 9400 2
-		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+		dialog "You land on <planet> and get paid <payment> by the miners."
 mission miner[2]
 	name "Miners to <planet>"
-	description "Transport 6 miners to the <destination> mine. Payment is <payment>."
+	description "Transport 6 miners to a mine on <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 6
@@ -2672,10 +2672,10 @@ mission miner[2]
 	on complete
 		payment
 		payment 18000 2
-		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+		dialog "You land on <planet> and get paid <payment> by the miners."
 mission miner[3]
 	name "Miners to <planet>"
-	description "Transport 4 miners to the <destination> mine. Payment is <payment>."
+	description "Transport 4 miners to a mine on <destination>. Payment is <payment>."
 	job
 	repeat
 	passengers 4
@@ -2690,7 +2690,7 @@ mission miner[3]
 	on complete
 		payment
 		payment 19000 2
-		dialog "You land on <planet> and get payed <payment> by the miner(s)."
+		dialog "You land on <planet> and get paid <payment> by the miners."
 
 # Worker
 mission worker-factory[0]
@@ -2710,7 +2710,7 @@ mission worker-factory[0]
 	on complete
 		payment
 		payment 9600 750
-		dialog "You land on <planet> and the worker(s) pay you <payment>."
+		dialog "You land on <planet> and the workers pay you <payment>."
 mission worker-factory[1]
 	name "Worker to <planet>"
 	description "Transport 2 workers to the <planet> factory in the <system> system. Payment is <payment>."
@@ -2728,7 +2728,7 @@ mission worker-factory[1]
 	on complete
 		payment
 		payment 12040 750
-		dialog "You land on <planet> and the worker(s) pay you <payment>."
+		dialog "You land on <planet> and the workers pay you <payment>."
 
 mission worker-factory[2]
 	name "Worker to <planet>"
@@ -2747,7 +2747,7 @@ mission worker-factory[2]
 	on complete
 		payment
 		payment 12040 750
-		dialog "You land on <planet> and the worker(s) pay you <payment>."
+		dialog "You land on <planet> and the workers pay you <payment>."
 
 # Station Garbage
 
@@ -2770,7 +2770,7 @@ mission empire-station-garbage[0]
 	on complete
 		payment
 		payment 45000 6
-		dialog "You recycle the garbage and get payed <payment>."
+		dialog "You recycle the garbage and get paid <payment>."
 
 mission empire-station-garbage[1]
 	name "Station Garbage to <planet>"
@@ -2791,7 +2791,7 @@ mission empire-station-garbage[1]
 	on complete
 		payment
 		payment 60000 4
-		dialog "You recycle the garbage and get payed <payment>."
+		dialog "You recycle the garbage and get paid <payment>."
 
 mission empire-station-garbage[2]
 	name "Station Garbage to <planet>"
@@ -2812,7 +2812,7 @@ mission empire-station-garbage[2]
 	on complete
 		payment
 		payment 95000 2
-		dialog "You recycle the garbage and get payed <payment>."
+		dialog "You recycle the garbage and get paid <payment>."
 		
 # Protection Escort jobs
 
@@ -2958,7 +2958,7 @@ mission empire-protection-escort-heavy[1]
 
 mission empire-merchant-assist-small[0]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	description "A derelict Empire Merchant ship sent a S.O.S. earlier today in a nearby system. Assist him before Empire Rebels receive his S.O.S. Find him and bring him back to <origin>."
 	job
 	repeat
 	source
@@ -2967,7 +2967,7 @@ mission empire-merchant-assist-small[0]
 		random < 20
 		"combat rating" > 300
 	on fail
-		dialog "You failed your mission"
+		dialog "You failed to rescue the Empire Merchant."
 	on visit
 		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
 	npc assist save
@@ -2985,11 +2985,11 @@ mission empire-merchant-assist-small[0]
 	on complete
 		payment
 		payment 300000
-		dialog "You land with the captain of the <npc> and he gives you <payment>.
+		dialog "You land with the captain of the <npc> and he gives you <payment>."
 			
 mission empire-merchant-assist-small[1]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>"
+	description "A derelict Empire Merchant ship sent a S.O.S. earlier today in a nearby system. Assist him before Empire Rebels receive his S.O.S. Find him and bring him back to <origin>."
 	job
 	repeat
 	source
@@ -2998,7 +2998,7 @@ mission empire-merchant-assist-small[1]
 		random < 20
 		"combat rating" > 300
 	on fail
-		dialog "You failed your mission"
+		dialog "You failed to rescue the Empire Merchant."
 	on visit
 		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
 	npc assist save
@@ -3016,11 +3016,11 @@ mission empire-merchant-assist-small[1]
 	on complete
 		payment
 		payment 400000
-		dialog "You land with the captain of the <npc> and he gives you <payment>.
+		dialog "You land with the captain of the <npc> and he gives you <payment>."
 			
 mission empire-merchant-assist-small[2]
 	name "Derelict S.O.S."
-	description "A derelict Empire Merchant ship has sent a S.O.S. sooner this day in a nearby system. Assist him before some Empire Rebels receive his S.O.S. and find him then bring him back to <origin>."
+	description "A derelict Empire Merchant ship sent a S.O.S. earlier today in a nearby system. Assist him before Empire Rebels receive his S.O.S. Find him and bring him back to <origin>."
 	job
 	repeat
 	source
@@ -3029,7 +3029,7 @@ mission empire-merchant-assist-small[2]
 		random < 20
 		"combat rating" > 300
 	on fail
-		dialog "You failed your mission"
+		dialog "You failed to rescue the Empire Merchant."
 	on visit
 		dialog "It seems you landed on <planet> but didn't assist the derelict ship."
 	npc assist save
@@ -3046,5 +3046,5 @@ mission empire-merchant-assist-small[2]
 	on complete
 		payment
 		payment 50000
-		dialog "You land with the captain of the <npc> and he gives you <payment>.
+		dialog "You land with the captain of the <npc> and he gives you <payment>."
 			government "Empire Rebels"
