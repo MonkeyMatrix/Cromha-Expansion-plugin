@@ -109,7 +109,7 @@ ship "Empire Classik"
 	explode "empire tiny explosion" 36
 	explode "empire medium explosion" 15
 	"final explode" "empire huge explosion"
-	description "Even from the founding of the Mineria colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
+	description "Even from the founding of the Mineria Colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria Colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
 	description "The Empire Classik is a restored version of the Kor Efreti Charm Shallop. Although Lifdot Industries were unable to reproduce this ship at first, their current production can build large amounts of these ships."
 
 ship "Empire Daggrez"
@@ -208,7 +208,7 @@ ship "Empire Daggrez"
 	explode "empire tiny explosion" 36
 	explode "empire medium explosion" 25
 	"final explode" "empire huge explosion"
-	description "Even from the founding of the Mineria colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
+	description "Even from the founding of the Mineria Colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria Colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
 	description "The Empire Classik is a restored version of the Kor Efreti Charm Shallop. Although Lifdot Industries were unable to reproduce this ship at first, their current production can build large amounts of these ships."
 
 ship "Empire Shall'ok"
@@ -317,5 +317,5 @@ ship "Empire Shall'ok"
 	explode "empire medium explosion" 25
 	explode "empire huge explosion" 15
 	"final explode" "empire huge explosion"
-	description "Even from the founding of the Mineria colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
+	description "Even from the founding of the Mineria Colonies in the north of the Empire Space, they have fought the Kor Efreti, a Korath species. Although the Kor Efreti are pacifists in the beginning, the Cromha Empire dislikes like Korath. The Mineria Colonies started attacking small Kor Efreti ships to collect outfit and ship models. When they had enough ship hulls, they started restoring them to create their own ships with their technology."
 	description "The Empire Classik is a restored version of the Kor Efreti Charm Shallop. Although Lifdot Industries were unable to reproduce this ship at first, their current production can build large amounts of these ships."
