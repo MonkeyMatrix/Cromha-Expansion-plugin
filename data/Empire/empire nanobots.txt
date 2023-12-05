@@ -128,7 +128,7 @@ ship "Cargo Transporter"
 	engine -13.5 22
 	engine 13.5 22
 	gun 0 -26 "Empire Particle gun"
-	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
+	description "This is a 'mobile cargo'. It is useful to carry cargo; drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
 
 ship "Cargo Transporter Class D"
 	sprite "ship/cargo transporter class d"
@@ -169,7 +169,7 @@ ship "Cargo Transporter Class D"
 	engine -13.5 22
 	engine 13.5 22
 	gun 0 -26 "Alldust Beam Canon"
-	description "This is a 'mobile cargo'. It is useful to carry cargo, drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
+	description "This is a 'mobile cargo'. It is useful to carry cargo; drop it when you need to be faster if you are attacked. The Empire use them with the Empire Bulker to export all their products."
 	
 ship "Fuel Pod"
 	noun "fuel pod"
@@ -240,7 +240,7 @@ ship "Fuel Pod"
 		left
 		angle 270
 		zoom 0.7
-	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+	description "This is a mobile fuel pod. It is useful to carry fuel; drop it when you need fuel then leave it if you need speed."
 
 ship "Fuel Pod Class D"
 	noun "fuel pod"
@@ -285,7 +285,7 @@ ship "Fuel Pod Class D"
 		angle 330
 	"steering engine" -25.2 0
 		angle 30
-	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
+	description "This is a mobile fuel pod. It is useful to carry fuel; drop it when you need fuel then leave it if you need speed."
 
 ship "Fuel Pod Class H"
 	noun "fuel pod"
@@ -331,5 +331,5 @@ ship "Fuel Pod Class H"
 		angle 330
 	"steering engine" -12 -2
 		angle 30
-	description "This is a mobile fuel pod. It is useful to carry fuel, drop it when you need fuel then leave it if you need speed."
-	description "The Empire class H ships are the first ships The Empire ever made. They used to be used at the beginning of The Cromha Empire when it was still being discovered. They are old but are still good ships because The Empire installed new generations outfits and weapons on them recently."
+	description "This is a mobile fuel pod. It is useful to carry fuel; drop it when you need fuel then leave it if you need speed."
+	description "The Empire class H ships are the first ships The Empire ever made. They were used after the founding of the Cromha Empire. While they are old, they are still reliable ships because the Empire installed new generations of outfits and weapons on them recently."
