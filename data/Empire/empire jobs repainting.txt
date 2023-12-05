@@ -1,6 +1,6 @@
 mission empire-repainting-0
 	name "Repainting Red+Yellow"
-	description "An Empire employee is willing to repaint your ships to the Republic colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Republic colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -18,7 +18,7 @@ event empire-repainting-0
 		
 mission empire-repainting-1
 	name "Repainting Red+Magenta"
-	description "An Empire employee is willing to repaint your ships with red and magenta markings if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with red and magenta markings if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -36,7 +36,7 @@ event empire-repainting-1
 		
 mission empire-repainting-2
 	name "Repainting Green+Yellow"
-	description "An Empire employee is willing to repaint your ships to the Militia colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Militia colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -54,7 +54,7 @@ event empire-repainting-2
 
 mission empire-repainting-3
 	name "Repainting Green+Cyan"
-	description "An Empire employee is willing to repaint your ships to the Empire Rebels colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Empire Rebel colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -72,7 +72,7 @@ event empire-repainting-3
 		
 mission empire-repainting-4
 	name "Repainting Blue+Magenta"
-	description "An Empire employee is willing to repaint your ships to the Syndicate colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Syndicate colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -90,7 +90,7 @@ event empire-repainting-4
 		
 mission empire-repainting-5
 	name "Repainting Blue+Cyan"
-	description "An Empire employee is willing to repaint your ships to the Civilian colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Civilian colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -108,7 +108,7 @@ event empire-repainting-5
 		
 mission empire-repainting-6
 	name "Repainting Red+Black"
-	description "An Empire employee is willing to repaint your ships to the Pirate colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Pirate colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -126,7 +126,7 @@ event empire-repainting-6
 		
 mission empire-repainting-7
 	name "Repainting Pure Red"
-	description "An Empire employee is willing to repaint your ships with pure red if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure red if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -144,7 +144,7 @@ event empire-repainting-7
 		
 mission empire-repainting-8
 	name "Repainting Faded Red"
-	description "An Empire employee is willing to repaint your ships with faded red if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded red if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -162,7 +162,7 @@ event empire-repainting-8
 	
 mission empire-repainting-9
 	name "Repainting Pure Black"
-	description "An Empire employee is willing to repaint your ships with pure black if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure black if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -180,7 +180,7 @@ event empire-repainting-9
 		
 mission empire-repainting-10
 	name "Repainting Faded Black"
-	description "An Empire employee is willing to repaint your ships with faded black if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded black if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -198,7 +198,7 @@ event empire-repainting-10
 		
 mission empire-repainting-11
 	name "Repainting Pure Black"
-	description "An Empire employee is willing to repaint your ships with pure white if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure white if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -216,7 +216,7 @@ event empire-repainting-11
 		
 mission empire-repainting-12
 	name "Repainting Dark Blue"
-	description "An Empire employee is willing to repaint your ships with darkened blue if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with darkened blue if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -234,7 +234,7 @@ event empire-repainting-12
 		
 mission empire-repainting-13
 	name "Repainting Pure Blue"
-	description "An Empire employee is willing to repaint your ships with pure blue if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure blue if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -252,7 +252,7 @@ event empire-repainting-13
 		
 mission empire-repainting-14
 	name "Repainting Faded Blue"
-	description "An Empire employee is willing to repaint your ships with faded blue if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded blue if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -270,7 +270,7 @@ event empire-repainting-14
 		
 mission empire-repainting-15
 	name "Repainting Dark Cyan"
-	description "An Empire employee is willing to repaint your ships with darkened cyan if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with darkened cyan if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -288,7 +288,7 @@ event empire-repainting-15
 		
 mission empire-repainting-16
 	name "Repainting Pure Cyan"
-	description "An Empire employee is willing to repaint your ships to the Empire Merchant colors if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) to the Empire Merchant colors if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -306,7 +306,7 @@ event empire-repainting-16
 		
 mission empire-repainting-17
 	name "Repainting Faded Cyan"
-	description "An Empire employee is willing to repaint your ships with faded cyan if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded cyan if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -324,7 +324,7 @@ event empire-repainting-17
 		
 mission empire-repainting-18
 	name "Repainting Dark Cyan"
-	description "An Empire employee is willing to repaint your ships with darkened cyan if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with darkened cyan if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -342,7 +342,7 @@ event empire-repainting-18
 	
 mission empire-repainting-19
 	name "Repainting Pure Green"
-	description "An Empire employee is willing to repaint your ships with pure green if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure green if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -360,7 +360,7 @@ event empire-repainting-19
 		
 mission empire-repainting-20
 	name "Repainting Faded Green"
-	description "An Empire employee is willing to repaint your ships with faded green if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded green if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -378,7 +378,7 @@ event empire-repainting-20
 		
 mission empire-repainting-21
 	name "Repainting Dark Yellow"
-	description "An Empire employee is willing to repaint your ships with darkened yellow if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with darkened yellow if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -396,7 +396,7 @@ event empire-repainting-21
 		
 mission empire-repainting-22
 	name "Repainting Pure Yellow"
-	description "An Empire employee is willing to repaint your ships with pure yellow if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure yellow if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -414,7 +414,7 @@ event empire-repainting-22
 		
 mission empire-repainting-23
 	name "Repainting Faded Yellow"
-	description "An Empire employee is willing to repaint your ships with faded yellow if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded yellow if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -432,7 +432,7 @@ event empire-repainting-23
 	
 mission empire-repainting-24
 	name "Repainting Dark Magenta"
-	description "An Empire employee is willing to repaint your ships with darkened magenta if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with darkened magenta if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -450,7 +450,7 @@ event empire-repainting-24
 		
 mission empire-repainting-25
 	name "Repainting Pure Magenta"
-	description "An Empire employee is willing to repaint your ships with pure magenta if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with pure magenta if you pay him 7,000 credits."
 	job
 	repeat
 	source
@@ -468,7 +468,7 @@ event empire-repainting-25
 		
 mission empire-repainting-26
 	name "Repainting Dark Magenta"
-	description "An Empire employee is willing to repaint your ships with faded magenta if you pay him 7,000 credits."
+	description "An Empire employee is willing to repaint your ship(s) with faded magenta if you pay him 7,000 credits."
 	job
 	repeat
 	source
