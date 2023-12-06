@@ -18,7 +18,7 @@ outfit "RV-120 Disruption Thruster"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
 	"reverse flare sound" "atomic small"
-	description "These new generations Empire Navy disruption thruster are the future of empires engines: They have the best thrusting effiency."
+	description "These new generation Empire Navy disruption thrusters are the future of empires engines: They have the best thrusting efficiency."
 
 outfit "RV-125 Disruption Steering"
 	category Engines
@@ -34,7 +34,7 @@ outfit "RV-125 Disruption Steering"
 	"flare sprite" "effect/disruption flare"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
-	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
+	description "These new generation Empire Navy disruption steering thrusters are the future of empires engines: They have the best turning efficiency."
 
 outfit "Prototype-XB4 Detonator Engine"
 	category Engines
@@ -99,7 +99,7 @@ outfit "RV-170 Disruption Thruster"
 		"frame rate" 14
 	"flare sound" "atomic large"
 	"reverse flare sound" "atomic small"
-	description "These new generations Empire Navy disruption thruster are the future of empires engines: They have the best thrusting effiency."
+	description "These new generation Empire Navy disruption thrusters are the future of empires engines: They have the best thrusting efficiency."
 
 outfit "RV-175 Disruption Steering"
 	category Engines
@@ -115,7 +115,7 @@ outfit "RV-175 Disruption Steering"
 	"flare sprite" "effect/disruption flare"
 		"frame rate" 14
 	"flare sound" "atomic large"
-	description "These new generations Empire Navy disruption steering are the future of empires engines: They have the best turning effiency."
+	description "These new generation Empire Navy disruption steering thrusters are the future of empires engines: They have the best turning efficiency."
 
 outfit "Caltalytic Tear Secret"
 	"display name" "Secret Weapon"
@@ -124,7 +124,7 @@ outfit "Caltalytic Tear Secret"
 	cost 0
 	"heat generation" 150
 	"energy consumption" 55
-	description "Your experience as well as your scanners can't make any sense of this weapon. You can't figure out how to make it work. The only thing that you know about this thing is that it needs to be powered by a lot of energy and produce a large amount of heat. It seems the Cromha Empire know how to keep things secret"
+	description "Your experience as well as your scanners can't make any sense of this weapon. You can't figure out how to make it work. The only thing that you know about this weapon is that it needs to be powered by a lot of energy, and it produces a large amount of heat. It seems the Cromha Empire know how to keep things secret."
 
 outfit "Empire Detonator Engine Secret"
 	"display name" "Prototype Engine"
@@ -134,7 +134,7 @@ outfit "Empire Detonator Engine Secret"
 	"heat generation" 150
 	"energy consumption" 55
 	description "Your experience as well as your scanners can't make any sense of this engine. You can't figure out how to make it work. The only thing that you know about this thing is that it needs to be powered by a lot of energy and produce a large amount of heat. It seems the Cromha Empire know how to keep things secret"
-	
+
 outfit "Empire Detonator Attribute Secret"
 	"empire detonator mission active" 1
 
@@ -292,7 +292,7 @@ outfit "Draining Field Device"
 		"blast radius" 40
 		"piercing" .3
 		"hit force" 130
-	description "This device produces a large field that will take down the shields of your enemy to zero almost instantaneously. It also deals a noticeable amount of ion damage to the target that can completely wipe out their energy. it cannot be installed if you don't have any antimatter capacitor installed."
+	description "This device produces a large field that will take down the shields of your enemy to zero almost instantaneously. It will also deal a noticeable amount of ion damage that can completely disable your ship energy long enough for you to disable them. It cannot be installed if you don't have any antimatter capacitor installed."
 	
 effect "draining field fire"
 	sprite "effect/draining field/fire"
@@ -358,7 +358,7 @@ outfit "Prototype Fusion Cannon (Empire)"
 		"disruption damage" 19
 		"hit force" 250
 		"missile strength" 500
-	description "This is a personally obtained prototype Fusion Cannon, a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
+	description "This is a personally obtained prototype Fusion Cannon: a deadly, massive spinal weapon. Where it came from, nobody knows except the owner, and those who wish to ask are too afraid of being on the receiving end."
 	
 effect "fusion cannon fire empire"
 	sprite "effect/plasma fire empire"
