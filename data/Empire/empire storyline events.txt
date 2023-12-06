@@ -9,9 +9,9 @@ mission "Award 3"
 	on offer
 		log "You got an Empire Quantum Medal from Cromha himself."
 		conversation
-			`As you land, you hear a little 'bip' sound coming from to small monitor in front of you. You click on the pop-up and its open the Cromha Empire missions app. You can read a new message:`
-			`	"Dear Captain <last>, I heard about you this last months, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravery you won an Empire medal. With this medal you will be able to enter in any Empire planets even if it is top secrets ones. With this medal you will also receive 15,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
-			`	Cromha Lord-sta himself, the Emperor send you a letter! You can't even think about it that your teleportation dock turns on and you can see the medal being teleported. You'll know how to make good use of it.`
+			`As you land, you hear a little 'bip' sound coming from a small monitor in front of you. You click on the pop-up and open the Cromha Empire mission app. You read the new message:`
+			`	"Dear Captain <last>, I heard about you last month, about what you did for The Empire. You know that we award all our good citizens, but you deserve something better. For your bravery, you have won an Empire medal. With this medal, you will be able to enter any Empire planets, including top-secret planets. You will also receive 15,000 credits per day. Just be sure you don't lose it. Signed, Cromha Lord-sta"`
+			`	You are in utter disbelief; Cromha Lord-sta himself, the Emperor sent you a letter! You see your teleportation dock turn on, the medal materializes, and then it turns off again. You'll know how to make good use of it.`
 				decline
 	on decline
 		outfit "Empire Quantum Medal"
@@ -693,8 +693,8 @@ event "Black Manta Building Station Appear"
 				distance 0
 				period 110
 
-event "Giribea colony Appears"
-	log "The first colony of The Empire in the Ember Waste is now fully set up and some of it because of you."
+event "Giribea Colony Appears"
+	log "The first Empire colony in the Ember Waste is now fully set up, partially due to your work."
 	system Giribea
 		pos -6 674
 		government Cromha Empire
@@ -877,8 +877,8 @@ planet Kalisty
 	outfitter Advanced-systems-outfitter
 	outfitter Basic-weapon-outfitter
 	outfitter Base-outfitter
-	description "This brand new Empire colony has been given to the Empire Merchant syndicates by the Cromha Empire. It has been decided that it will be a great urban planet with 3 central cities: Kalisty Prima, New Crodust and Linimbuia. It will be a great planet like Linimbus, Volcanois; a planet of trading and the symbol of freedom in the Cromha Empire Space."
-	spaceport "The spaceport is full of almost every species of the Milky Way. The principal interest of the spaceport seems to be trading, and jobs/missions; the fact that it's controlled by the Empire Merchant's syndicate make so that it's an extremely good place to kind jobs, missions for new captains in the Cromha Empire Space."
+	description "This brand new Empire colony has been given to the Empire Merchant syndicates by the Cromha Empire. It has been decided that it will be a great urban planet with 3 central cities: Kalisty Prima, New Crodust and Linimbuia. It will be a great planet like Linimbus, Volcanois, a planet of trading and the symbol of freedom in the Cromha Empire Space."
+	spaceport "The spaceport is full of almost every species in the Milky Way. The principal interest of the spaceport seems to be trading along with jobs and missions. The fact that it's controlled by the Empire Merchant's syndicate tells you it is a great place to find jobs and missions for new captains in Cromha Empire Space."
 	bribe 1.7
 	security 2.4
 
@@ -889,7 +889,7 @@ planet "New Quaru"
 	"required reputation" 650
 	bribe 0
 	security 4.6
-	description "New Quaru colony is a top secret Quarg-Empire military planet basement. Its name is in memory of an old defeated system called 'Quaru' which is now controlled by the Coaliton Heliarch in the Coalition space. The security is extreme and you'll need an empire mapper to enter this planet."
+	description "New Quaru colony is a top secret Quarg-Empire military planet basement. Its name is in memory of an old defeated system called 'Quaru' which is now controlled by the Coalition Heliarch in the Coalition space. The security is extreme, so you'll need an empire mapper to enter this planet."
 	spaceport "TODO"
 
 event "Lifdot Colonization"
