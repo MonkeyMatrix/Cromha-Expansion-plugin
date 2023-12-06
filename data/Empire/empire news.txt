@@ -630,7 +630,7 @@ news "Cromha Empire Loan Officer"
 		word
 			`"`
 
-# Tourist and Vacancer
+# Tourist and Sightseer
 
 news "Cromha Empire Tourist"
 	location
