@@ -146,7 +146,7 @@ If you're not familiar with git, you just have to run that command into the inst
 git pull
 ```
 
-If it don't work, you can just re-download the plugin at [releases](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/releases) and put it in your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins). And make sure you deleted the old Cromha Expansion plugin folder.
+If this does not work, you can just re-download the plugin at [releases](https://github.com/OcelotWalrus/Cromha-Expansion-plugin/releases) and put it in your [endless sky plugin directory](https://github.com/endless-sky/endless-sky/wiki/CreatingPlugins). Make sure to delete the old Cromha Expansion plugin folder.
 
 ## Special thanks
 
